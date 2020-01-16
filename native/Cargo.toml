@@ -1,0 +1,19 @@
+[package]
+name = "jpg-encoder"
+version = "0.1.0"
+authors = ["luddite478 <luddite478@gmail.com>"]
+license = "MIT"
+build = "build.rs"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "jpg_encoder"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.3.3"
+
+[dependencies]
+neon = "0.3.3"
+image = "*"
+base64 = "*"

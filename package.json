@@ -1,0 +1,16 @@
+{
+  "name": "jpg-encoder",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "luddite478 <luddite478@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "image-size": "^0.8.3",
+    "jpeg-js": "^0.3.6",
+    "neon-cli": "^0.3.3"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
