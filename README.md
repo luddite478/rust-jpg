@@ -10,7 +10,7 @@ Install neon: \
 Build project: \
 `neon build --release`
 
-Run benchmark: \
-`node ./lib/benchtest.js`
+Run benchmark in /lib/bench: \
+`node test.js`
 
 
